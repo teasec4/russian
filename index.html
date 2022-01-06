@@ -27,9 +27,12 @@
 <body class="d-flex flex-column h-100">
 <header>
 
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
 
                 <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="res/bootstrap-seeklogo.com.svg" alt="" width="30" height="24">
+                    </a>
                     <a class="navbar-brand" href="#">La Ruse</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,6 +41,14 @@
                         <ul class="navbar-nav me-auto mb-2 mb-md-0 ">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Lessons</a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item" href="#">Elementary</a></li>
+                                    <li><a class="dropdown-item " href="#">Intermediate</a></li>
+                                    <li><a class="dropdown-item " href="#">Advance</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link "  href="#">Features</a>
@@ -48,7 +59,7 @@
 
                         </ul>
                         <form class="d-flex">
-                            <button class="btn btn-outline-success me-2" type="button">Join us</button>
+                            <button class="btn btn-success me-2" type="button">Join us</button>
                         </form>
                     </div>
 
@@ -73,28 +84,26 @@
         </ul>
 
     </div>
-    <div class="container">
-        <button type="button" class="btn btn-success btn-lg d-flex justify-content-center m-auto">Join for free</button>
-    </div>
-
 
     <div class="container">
         <div class="container mt-2 mb-2 border border-info p-2">
 
             <div class="accordion-item">
-                <button class="accordion-button" type="button"data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <div class="d-flex flex-column">
-                        <div class="container">
-                            <img src="res/battery-half.svg">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button"data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <div class="d-flex flex-column">
+                            <div class="container">
+                                <img src="res/battery-half.svg">
+                            </div>
+                            <div class="container">
+                                <h2>Elementary</h2>
+                            </div>
+                            <div class="container">
+                                <p>10 lessons</p>
+                            </div>
                         </div>
-                        <div class="container">
-                            <h2>Elementary</h2>
-                        </div>
-                        <div class="container">
-                            <p>10 lessons</p>
-                        </div>
-                    </div>
-                </button>
+                    </button>
+                </h2>
                 <div id="collapseOne" class="accordion-collapse collapse"aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul class="list-group">
@@ -136,7 +145,7 @@
         <div class="container mt-2 mb-2 border border-success p-2">
 
             <div class="accordion-item">
-                <button class="accordion-button" type="button"data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <button class="accordion-button" type="button"data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <div class="d-flex flex-column">
                         <div class="container">
                             <img src="res/bicycle.svg">
@@ -190,8 +199,8 @@
         <div class="container mt-2 mb-2 border border-danger p-2">
 
             <div class="accordion-item">
-                <button class="accordion-button" type="button"data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                    <div class="d-flex flex-column">
+                <button class="accordion-button" type="button"data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="d-flex flex-column ">
                         <div class="container">
                             <img src="res/book.svg">
                         </div>
